@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pd-7-hw-27"
+version = "0.1.0"
+description = ""
+authors = ["SergeyLubash <luba-sergei@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "pd_7_hw_27"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
